@@ -463,6 +463,17 @@ a { color: inherit; }
 /* ---------------------------------------------------
    Calendar
 --------------------------------------------------- */
+.pto-banner {
+  padding-top: 32px;
+}
+.pto-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
 .calendar-section {
   padding-top: 40px;
   padding-bottom: 32px;
@@ -627,6 +638,7 @@ a { color: inherit; }
   .primary-nav a { display: block; padding: 14px 4px; }
   .nav-cta { display: inline-block; margin: 12px 4px 4px; }
 
+  .pto-banner { padding-top: 20px; }
   .calendar-section { padding-top: 24px; }
   .quick-links-grid { grid-template-columns: repeat(2, 1fr); }
 }
